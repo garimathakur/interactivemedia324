@@ -1,0 +1,218 @@
+/*Base */
+
+body {
+  background-color: white;
+}
+
+p {
+  font-family: Courier;
+  font-size: 25px;
+}
+
+.sad {
+  width:200px;
+  height: 228px;
+  background-size: 100%;
+  background-image: url('../images/00.jpg');
+}
+
+.one {
+  display: block;
+  margin-left:25px;
+}
+
+.two, .three, .four, .five, .six, .seven, .eight, .nine, .ten {
+    display: none;
+    margin-left: 25px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 1024px) {
+ 
+  body { 
+    background: white; 
+  }
+
+  .sad {
+    background-image: url('../images/02.jpg');
+  }
+
+  .two {
+    display: block;
+  }
+
+  .one, .three, .four, .five, .six, .seven, .eight, .nine, .ten{
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 964px) {
+ 
+  body { 
+    background: white; 
+  }
+
+  .sad {
+    background-image: url('../images/03.jpg');
+  }
+
+   .three {
+    display: block;
+  }
+  
+  .one,.two, .four, .five, .six, .seven, .eight, .nine, .ten {
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 904px) {
+ 
+  body { 
+    background: white; 
+  }
+
+  .sad {
+    background-image: url('../images/04.jpg');
+  }
+
+  .four {
+    display: block;
+  }
+  
+  .one, .two, .three, .five, .seven, .eight, .nine, .ten {
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 844px) {
+ 
+  body { 
+    background: white; 
+  }
+
+  .sad {
+    background-image: url('../images/05.jpg');
+  }
+
+  .five {
+    display: block;
+  }
+  
+  .one, .two, .three, .four, .six, .seven, .nine, .ten {
+    display: none;
+  }
+
+}
+
+
+
+@media screen and (max-width: 784px) {
+ 
+  body { 
+    background: white; 
+  }
+
+  .sad {
+    background-image: url('../images/06.jpg');
+  }
+
+  .six {
+    display: block;
+  }
+  
+  .one, .two, .three, .four, .five, .seven, .eight, .nine, .ten {
+    display: none;
+  }
+
+}
+
+
+
+@media screen and (max-width: 724px) {
+ 
+  body { 
+    background: white; 
+  }
+
+  .sad {
+    background-image: url('../images/07.jpg');
+  }
+
+  .seven {
+    display: block;
+  }
+  
+  .one, .two, .three, .four, .five, .six, .eight, .nine, .ten{
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 664px) {
+ 
+  body { 
+    background: white; 
+  }
+
+  .sad {
+    background-image: url('../images/08.jpg');
+  }
+
+  .eight {
+    display: block;
+  }
+  
+  .one, .two, .three, .four, .five, .six, .seven, .nine, .ten {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 634px) {
+ 
+  body { 
+    background: white; 
+  }
+
+  .sad {
+    background-image: url('../images/09.jpg');
+  }
+
+  .nine {
+    display: block;
+  }
+  
+  .one, .two, .three, .four, .five, .six, .seven, .eight, .ten {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 604px) {
+ 
+  body { 
+    background: black; 
+  }
+
+  .sad {
+    background-image:url('../images/10.jpg');
+  }
+
+  .ten {
+    display: block;
+    color: white;
+  }
+  
+  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine {
+    display: none;
+  }
+
+}
