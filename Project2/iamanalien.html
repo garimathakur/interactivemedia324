@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link href='https://fonts.googleapis.com/css?family=Poiret+One|Rokkitt|Montserrat' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" href="assets/css/main.css" /> 
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"</>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+
+      // list one content
+      var one = [
+        "eat",
+        "cook",
+        "work",
+        "have sex",
+        "smoke",
+        "drive",
+        "feel",
+        "cook",
+        "see",
+        "look",
+        "run",
+        "walk",
+        "clean",
+        "be pregnant",
+        "make art",
+        "feel comfortable",
+        "love",
+        "know",
+        "learn",
+        "move",
+        "speak",
+        "kiss",
+        "travel",
+        "be",
+        ];
+
+      // This is a very common randomizing function.
+      // It takes a list (array) and returns one at random.
+      function select_random(x){
+        y = x[Math.floor(Math.random()*x.length)];
+        return y;
+      }
+function generate(){
+
+        // Select a random item from each list
+        var xyz = select_random(one);
+        
+
+        // Take the selected (random) item from list and make it visible
+        $('.list-one').html(xyz);
+        
+
+      } 
+
+      $('.main').click(function(){
+        generate();
+      });
+
+      generate();
+
+      $(".lower").click(function(){
+    alert(" As an immigant I fall into a category : alien authorised to work. The work alien defines my position aptly.");
+});
+      
+    });
+
+  </script>
+
+  </script>
+
+  </head>
+  <body>
+    <p>
+ I am an alien authorised to : <span class = "list-one"></span> <img src="">
+ <br>
+  <br>
+  <br>
+  <br>
+     <button class = "main"> Authorise </button>
+    </p>
+
+    <footer>
+    <button class = "lower"> <bottom>About</bottom></button>
+    </footer>
+  </body>
+</html>
